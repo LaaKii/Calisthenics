@@ -4,7 +4,7 @@ import java.io.File;
 
 public class GameOfLife {
     public static void main(String[] args){
-        GameField field = new GameField(new File("resources/config.txt"));
+        GameField field = new GameField(new File("resources/GoLConfig.txt"));
         field.initField();
         Game game = new Game(field);
         System.out.println("Start generation:");

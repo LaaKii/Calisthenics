@@ -38,6 +38,7 @@ public class PizzaOrderTest {
         Assert.assertEquals(7.80, ShoppingCart.calculateTotalPrice(pizzas,2),0.00001);
     }
 
+
     @Test
     public void testFiveOrderEveryThirdIsFree(){
         Pizza p1 = new Pizza();
